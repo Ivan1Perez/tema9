@@ -22,7 +22,7 @@ public class Miscelanea {
      */
     public static int generaAleatorioEntre(int num1, int num2)
     {
-        return ((int)Math.floor(Math.random()*(num2-num1)+num1));
+        return ((int)Math.floor(Math.random()*(num2-num1+1)+num1));
     }
 
     /**
